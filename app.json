@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wellat/index",
+    "pages/charge/index",
+    "pages/billing/index",
+    "pages/scan/index",
+    "pages/warn/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ofo 共享单车",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

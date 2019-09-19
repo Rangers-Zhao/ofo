@@ -1,0 +1,30 @@
+/* pages/billing/index.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number,.end-ride{
+  flex:2;
+  width:100%;
+  text-align: center;
+  padding: 60rpx 0;
+}
+.time{
+  flex: 6;
+  width: 100%;
+  text-align: center;
+}
+.number{
+  font-size: 40rpx;
+}
+.end-ride button{
+  width:90%;
+  margin-bottom: 30rpx;
+}
+.time .time-content{
+  font-size: 100rpx;
+}

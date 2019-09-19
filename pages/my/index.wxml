@@ -1,0 +1,17 @@
+<!--pages/my/index.wxml-->
+<view class='container'>
+ <view class='user-info'>
+  <block wx:if='{{userInfo.avatarImg}}'>
+   <image src='{{userInfo.avatarImg}}'></image>
+  </block>
+  <text>{{userInfo.nickName}}</text>
+ </view>
+ <block wx:if='{{userInfo.avatarImg}}'>
+  <view class='my-wallet'  bindtap='movetoWellat'>
+   <text>我的钱包</text>
+   <text>></text>
+  </view>
+ </block>
+ <button class='btn-submit' type='{{btnType}}' bindtap='bindtap'>{{actionText}}</button>
+</view>
+ 

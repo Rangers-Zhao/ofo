@@ -1,0 +1,27 @@
+<!--pages/wellat/index.wxml-->
+<view class='container'>
+  <view class='overage'>
+   <view>
+    <text class='overage-header'>余额</text>
+   </view>
+   <view>
+    <text class='overage-money'>{{overage}}</text>
+   </view>
+   <view>
+    <text class='overage-desc'>余额描述</text>
+   </view>
+  </view>
+  <button class='btn-charge' bindtap='bindtap'>充值</button>
+  <view class='ticket tapbar'>
+    <text>我的打车券</text>
+    <text>></text>
+  </view>
+   <view class='deposite tapbar'>
+    <text>押金</text>
+    <text>></text>
+  </view>
+   <view class='about tapbar'>
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+</view>

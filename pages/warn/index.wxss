@@ -1,0 +1,75 @@
+/* pages/warn/index.wxss */
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: #f2f2f2;
+}
+.title{
+  padding: 30rpx 0 30rpx 50rpx;
+  font-size: 28rpx;
+}
+.choose .group-grids{
+  padding: 50rpx;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.group-grids .grid{
+  width: 45%;
+  height: 100rpx;
+  margin-top:36rpx;
+  border: 2rpx solid #b9dd08;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 6rpx;
+}
+.grid:nth-of-type(1),.grid:nth-of-type(2){
+  margin-top:0;
+}
+.action-photo{
+  padding: 40rpx 0 40rpx 50rpx;
+  background: #fff;
+}
+.action-photo image{
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px dashed #ccc;
+  margin-left: 25rpx;
+  position: relative;
+  overflow: visible;
+}
+.action-photo .del{
+  position: absolute;
+  top:-15rpx;
+  right:-15rpx;
+}
+.action-photo .add{
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px dashed #ccc;
+  margin-left: 25rpx;
+  vertical-align: top;
+  font-size: 24rpx;
+  color:#ccc;
+  line-height: 120rpx;
+  text-align: center
+}
+.action-input{
+  padding: 40rpx 0 40rpx 50rpx;
+  background: #fff;
+  border-top: 10rpx solid #f2f2f2;
+}
+.action-input input{
+  padding: 40rpx 0;
+  width: 90%;
+}
+.action-input input:nth-of-type(2){
+  border-top: 1px solid #ccc;
+}
+.action-submit{
+  padding: 40rpx;
+  background: #f2f2f2;
+  width: 90%
+}
